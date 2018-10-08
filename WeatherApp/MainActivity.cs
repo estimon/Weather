@@ -21,13 +21,17 @@ namespace WeatherApp
             SearchButton.Click += Button_Click;
 
             
+
+            
         }
         private async void Button_Click(object sender, System.EventArgs e)
         {
+            var progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
+            progress.Visibility = Android.Views.ViewStates.Visible;
             var City1 = FindViewById<EditText>(Resource.Id.citysearch);
             var weather = await Core.Core.GetWeather(City1.Text);
 
-
+            
             
             var MainTemp = FindViewById<TextView>(Resource.Id.temptext);
             MainTemp.Text = weather.Temperature;

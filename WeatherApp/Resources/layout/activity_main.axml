@@ -38,7 +38,7 @@
 			android:minHeight="25px"
 			android:layout_width="match_parent"
 			android:layout_height="67.5dp"
-			android:id="@+id/linearLayout3" >
+			android:id="@+id/linearLayout3">
 			<TextView
 				android:text="Temperature"
 				android:textAppearance="?android:attr/textAppearanceLarge"
@@ -52,7 +52,7 @@
 			android:minWidth="25px"
 			android:minHeight="25px"
 			android:layout_width="match_parent"
-			android:layout_height="match_parent"
+			android:layout_height="218.5dp"
 			android:id="@+id/linearLayout4">
 			<TextView
 				android:text="Pressure"
@@ -61,6 +61,11 @@
 				android:layout_height="match_parent"
 				android:id="@+id/prestext"
 				android:gravity="left|bottom" />
+			<ImageView
+				android:src="@android:drawable/ic_menu_gallery"
+				android:layout_width="212.0dp"
+				android:layout_height="125.0dp"
+				android:id="@+id/imageView1" />
 			<TextView
 				android:text="Wind"
 				android:textAppearance="?android:attr/textAppearanceLarge"
@@ -69,5 +74,9 @@
 				android:id="@+id/windtext"
 				android:gravity="right|bottom" />
 		</LinearLayout>
+		<ProgressBar
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/progressBar1" />
 	</LinearLayout>
 </RelativeLayout>

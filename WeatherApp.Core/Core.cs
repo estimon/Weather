@@ -18,6 +18,7 @@ namespace WeatherApp.Core
             weather.Temperature = (string)results["main"]["temp"] + " C";
             weather.AirPressure = (string)results["main"]["pressure"] + "hpa";
             weather.WindSpeed = (string)results["wind"]["speed"] + " m/s";
+            weather.type = (string)results["weather"][0]["icon"];
             return weather;
         }
     }
