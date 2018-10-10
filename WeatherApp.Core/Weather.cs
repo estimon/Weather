@@ -13,5 +13,6 @@ namespace WeatherApp.Core
         public string WindSpeed { get; set; } = " ";
         public string AirPressure { get; set; } = " ";
         public string type { get; set; } = " ";
+        public string Picture { get; set; } = " ";
     }
 }

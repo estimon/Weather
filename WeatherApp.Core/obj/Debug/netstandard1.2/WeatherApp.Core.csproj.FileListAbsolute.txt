@@ -24,3 +24,11 @@ C:\Users\opilane\Documents\GitHub\Weather2\WeatherApp.Core\obj\Debug\netstandard
 C:\Users\opilane\Documents\GitHub\Weather2\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.AssemblyInfo.cs
 C:\Users\opilane\Documents\GitHub\Weather2\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.dll
 C:\Users\opilane\Documents\GitHub\Weather2\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.pdb
+C:\Users\Martin Ploompuu\Documents\GitHub\Weather\WeatherApp.Core\bin\Debug\netstandard1.2\WeatherApp.Core.deps.json
+C:\Users\Martin Ploompuu\Documents\GitHub\Weather\WeatherApp.Core\bin\Debug\netstandard1.2\WeatherApp.Core.dll
+C:\Users\Martin Ploompuu\Documents\GitHub\Weather\WeatherApp.Core\bin\Debug\netstandard1.2\WeatherApp.Core.pdb
+C:\Users\Martin Ploompuu\Documents\GitHub\Weather\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\Martin Ploompuu\Documents\GitHub\Weather\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.AssemblyInfoInputs.cache
+C:\Users\Martin Ploompuu\Documents\GitHub\Weather\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.AssemblyInfo.cs
+C:\Users\Martin Ploompuu\Documents\GitHub\Weather\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.dll
+C:\Users\Martin Ploompuu\Documents\GitHub\Weather\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.pdb
