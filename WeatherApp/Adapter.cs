@@ -45,7 +45,7 @@ namespace WeatherApp
             View view = convertView;
             if (view == null)
                 view = Context.LayoutInflater.Inflate(Resource.Layout.forecast, null);
-            view.FindViewById<ListView>(Resource.Id.listview2).Text = Items[position];
+            view.FindViewById<TextView>(Resource.Id.textView1).Text = Items[position];
             return view;
 
 

@@ -23,8 +23,9 @@ namespace WeatherApp
             SetContentView(Resource.Layout.activity_main);
             var SearchButton = FindViewById<Button>(Resource.Id.button1);
             SearchButton.Click += Button_Click;
-            var progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
-            progress.Visibility = Android.Views.ViewStates.Invisible;
+            var forecastbtn = FindViewById<Button>(Resource.Id.button3);
+            forecastbtn.Click += Button_Click;
+
         }
 
         private async void Button_Click(object sender, System.EventArgs e)
@@ -32,7 +33,7 @@ namespace WeatherApp
 
             //var progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
 
-            var progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
+
             var City1 = FindViewById<EditText>(Resource.Id.citysearch);
             var weather = await Core.Core.GetWeather(City1.Text);
             
@@ -45,7 +46,7 @@ namespace WeatherApp
             WindSpeed.Text = weather.WindSpeed;
             var MainPressure = FindViewById<TextView>(Resource.Id.prestext);
             MainPressure.Text = weather.AirPressure;
-            progress.Visibility = Android.Views.ViewStates.Visible;
+
 
             switch (weather.type)
             {
@@ -122,7 +123,7 @@ namespace WeatherApp
                     Picture.SetImageResource(Resource.Drawable.mistn);
                     break;
             }
-            progress.Visibility = Android.Views.ViewStates.Invisible;
+
         }
     }
 }
