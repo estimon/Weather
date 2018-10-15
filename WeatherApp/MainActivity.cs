@@ -18,33 +18,31 @@ namespace WeatherApp
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState);
-            // Set our view from the "main" layout resource
+
+
+
             SetContentView(Resource.Layout.activity_main);
+            base.OnCreate(savedInstanceState);
             var SearchButton = FindViewById<Button>(Resource.Id.button1);
-            SearchButton.Click += Button_Click;
             var forecastbtn = FindViewById<Button>(Resource.Id.button3);
-            forecastbtn.Click += Button_Click;
+
+            SearchButton.Click += Button_Click;
+            forecastbtn.Click += Button_Click1;
+
 
         }
 
         private async void Button_Click(object sender, System.EventArgs e)
         {
-
-            //var progress = FindViewById<ProgressBar>(Resource.Id.progressBar1);
-
-
             var City1 = FindViewById<EditText>(Resource.Id.citysearch);
             var weather = await Core.Core.GetWeather(City1.Text);
-            
             var Picture = FindViewById<ImageView>(Resource.Id.imageView1);
-            
-            
             var MainTemp = FindViewById<TextView>(Resource.Id.temptext);
-            MainTemp.Text = weather.Temperature;
             var WindSpeed = FindViewById<TextView>(Resource.Id.windtext);
-            WindSpeed.Text = weather.WindSpeed;
             var MainPressure = FindViewById<TextView>(Resource.Id.prestext);
+
+            MainTemp.Text = weather.Temperature;
+            WindSpeed.Text = weather.WindSpeed;   
             MainPressure.Text = weather.AirPressure;
 
 
@@ -125,5 +123,17 @@ namespace WeatherApp
             }
 
         }
+        private async void Button_Click1(object sender, System.EventArgs e)
+        {
+            var City1 = FindViewById<EditText>(Resource.Id.citysearch);
+            var forecast = await Core.coreForecast.GetForecastweather(City1.Text);
+
+
+            var Temp = FindViewById<TextView>(Resource.Id.textforecast);
+
+            Temp.Text = forecast.Temperature;
+        }
+
+
     }
 }

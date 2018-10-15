@@ -2759,6 +2759,9 @@ namespace WeatherApp
 			// aapt resource value: 0x7F0C0018
 			public const int text2 = 2131492888;
 			
+			// aapt resource value: 0x7F020014
+			public const int textforecast = 2130837524;
+			
 			// aapt resource value: 0x7F0C007E
 			public const int textinput_counter = 2131492990;
 			
@@ -2770,9 +2773,6 @@ namespace WeatherApp
 			
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
-			
-			// aapt resource value: 0x7F020014
-			public const int textView1 = 2130837524;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;

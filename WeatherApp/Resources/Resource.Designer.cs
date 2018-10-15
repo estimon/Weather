@@ -2870,11 +2870,11 @@ namespace WeatherApp
 			// aapt resource value: 0x7f080069
 			public const int textSpacerNoTitle = 2131230825;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int textView1 = 2131230885;
-			
 			// aapt resource value: 0x7f0800a4
 			public const int text_input_password_toggle = 2131230884;
+			
+			// aapt resource value: 0x7f0800a5
+			public const int textforecast = 2131230885;
 			
 			// aapt resource value: 0x7f080014
 			public const int textinput_counter = 2131230740;

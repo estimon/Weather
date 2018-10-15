@@ -7,19 +7,17 @@ namespace WeatherApp.Core
 {
     public class coreForecast
     {
-        public static async Task<Weather> GetWeather(string City)
+        public static async Task<forecastweather> GetForecastweather(string City)
         {
             string key = "1dad50e251b03e9137b8b650a95bc9ff";
-            string forecast = "https://api.openweathermap.org/data/2.5/forecast?q=" + City + "&units=metric&appid" + key;
+            string forecast = "https://api.openweathermap.org/data/2.5/forecast?q=" + City + "&units=metric&appid=1dad50e251b03e9137b8b650a95bc9ff";
 
             dynamic results = await DataService.GetDataFromService(forecast).ConfigureAwait(false);
-            var weather = new Weather();
+            var forecastweather = new forecastweather();
             //weather.Title = (string)results["name"];
-            weather.Temperature = (string)results["main"]["temp"] + " C";
-            weather.AirPressure = (string)results["main"]["pressure"] + "hpa";
-            weather.WindSpeed = (string)results["wind"]["speed"] + " m/s";
-            weather.type = (string)results["weather"][0]["icon"];
-            return weather;
+            forecastweather.Temperature = (string)results["list"][0]["main"]["temp"] + " C";
+            //forecastweather.type = (string)results["weather"][0]["icon"];
+            return forecastweather;
         }
     }
 }

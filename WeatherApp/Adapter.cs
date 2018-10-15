@@ -12,8 +12,10 @@ using Android.Widget;
 
 namespace WeatherApp
 {
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
     public class Adapter : BaseAdapter<string>
     {
+
         string[] Items;
 
         Activity Context;
@@ -45,7 +47,7 @@ namespace WeatherApp
             View view = convertView;
             if (view == null)
                 view = Context.LayoutInflater.Inflate(Resource.Layout.forecast, null);
-            view.FindViewById<TextView>(Resource.Id.textView1).Text = Items[position];
+            view.FindViewById<TextView>(Resource.Id.textforecast).Text = Items[position];
             return view;
 
 

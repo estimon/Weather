@@ -3128,8 +3128,8 @@ containing a value of this type.
         public static final int text2=0x7f08001b;
         public static final int textSpacerNoButtons=0x7f08006a;
         public static final int textSpacerNoTitle=0x7f080069;
-        public static final int textView1=0x7f0800a5;
         public static final int text_input_password_toggle=0x7f0800a4;
+        public static final int textforecast=0x7f0800a5;
         public static final int textinput_counter=0x7f080014;
         public static final int textinput_error=0x7f080015;
         public static final int time=0x7f0800b1;

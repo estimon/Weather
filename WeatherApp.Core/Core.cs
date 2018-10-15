@@ -11,7 +11,6 @@ namespace WeatherApp.Core
         {
             string key = "1dad50e251b03e9137b8b650a95bc9ff";
             string citysearch = "http://api.openweathermap.org/data/2.5/weather?q="+ City + "&units=metric&appid=" + key;
-            string forecast = "https://api.openweathermap.org/data/2.5/forecast?q=" + City + "&units=metric&appid" + key;
 
             dynamic results = await DataService.GetDataFromService(citysearch).ConfigureAwait(false);
             var weather = new Weather();
@@ -22,5 +21,7 @@ namespace WeatherApp.Core
             weather.type = (string)results["weather"][0]["icon"];
             return weather;
         }
+
+        
     }
 }
