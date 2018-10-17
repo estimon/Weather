@@ -2579,6 +2579,9 @@ namespace WeatherApp
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
 			
+			// aapt resource value: 0x7F020020
+			public const int listView1 = 2130837536;
+			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
@@ -2759,8 +2762,8 @@ namespace WeatherApp
 			// aapt resource value: 0x7F0C0018
 			public const int text2 = 2131492888;
 			
-			// aapt resource value: 0x7F020014
-			public const int textforecast = 2130837524;
+			// aapt resource value: 0x7F020019
+			public const int textInputEditText1 = 2130837529;
 			
 			// aapt resource value: 0x7F0C007E
 			public const int textinput_counter = 2131492990;
@@ -2773,6 +2776,21 @@ namespace WeatherApp
 			
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
+			
+			// aapt resource value: 0x7F020014
+			public const int textView2 = 2130837524;
+			
+			// aapt resource value: 0x7F020015
+			public const int textView3 = 2130837525;
+			
+			// aapt resource value: 0x7F020016
+			public const int textView4 = 2130837526;
+			
+			// aapt resource value: 0x7F020017
+			public const int textView5 = 2130837527;
+			
+			// aapt resource value: 0x7F020018
+			public const int textView6 = 2130837528;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -3012,6 +3030,9 @@ namespace WeatherApp
 			
 			// aapt resource value: 0x7F030003
 			public const int forecast = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int layout1 = 2130903044;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;

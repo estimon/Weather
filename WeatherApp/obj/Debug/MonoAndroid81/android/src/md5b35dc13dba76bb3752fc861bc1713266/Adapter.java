@@ -26,13 +26,6 @@ public class Adapter
 			mono.android.TypeManager.Activate ("WeatherApp.Adapter, WeatherApp", "", this, new java.lang.Object[] {  });
 	}
 
-	public Adapter (android.app.Activity p0, java.lang.String[] p1)
-	{
-		super ();
-		if (getClass () == Adapter.class)
-			mono.android.TypeManager.Activate ("WeatherApp.Adapter, WeatherApp", "Android.App.Activity, Mono.Android:System.String[], mscorlib", this, new java.lang.Object[] { p0, p1 });
-	}
-
 
 	public java.lang.Object getItem (int p0)
 	{

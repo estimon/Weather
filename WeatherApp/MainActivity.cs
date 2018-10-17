@@ -7,6 +7,11 @@ using Android.Widget;
 using System.Net;
 using System.IO;
 using System.Text;
+using WeatherApp.Core;
+using Android.Content;
+using Android.Views;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace WeatherApp
 {
@@ -123,16 +128,26 @@ namespace WeatherApp
             }
 
         }
-        private async void Button_Click1(object sender, System.EventArgs e)
+        private void Button_Click1(object sender, System.EventArgs e)
         {
-            var City1 = FindViewById<EditText>(Resource.Id.citysearch);
-            var forecast = await Core.coreForecast.GetForecastweather(City1.Text);
+            var forecastactivity = new Intent(this, typeof(ForecastActivitycs));
+            StartActivity(forecastactivity);
+
+            //var City1 = FindViewById<EditText>(Resource.Id.citysearch);
+            //forecastweather[] forecasts = await Core.coreForecast.GetForecastweather(City1.Text);
 
 
-            var Temp = FindViewById<TextView>(Resource.Id.textforecast);
+            //var list = FindViewById<ListView>(Resource.Id.listView1);
+            //list.Adapter = new Adapter(this, forecasts);
 
-            Temp.Text = forecast.Temperature;
+           // SetContentView(Resource.Layout.forecast);
+
+            
+            
         }
+
+
+
 
 
     }
