@@ -48,11 +48,11 @@ namespace WeatherApp
             View view = convertView;
             if (view == null)
                 view = Context.LayoutInflater.Inflate(Resource.Layout.forecast, null);
-            view.FindViewById<TextView>(Resource.Id.textView2).Text = "1. " + Items[position].Temperature;
-            view.FindViewById<TextView>(Resource.Id.textView3).Text = "2. " + Items[position].Temperature1;
-            view.FindViewById<TextView>(Resource.Id.textView4).Text = "3. " + Items[position].Temperature2;
-            view.FindViewById<TextView>(Resource.Id.textView5).Text = "4. " + Items[position].Temperature3;
-            view.FindViewById<TextView>(Resource.Id.textView6).Text = "5. " + Items[position].Temperature4;
+            view.FindViewById<TextView>(Resource.Id.textView2).Text = Items[position].Temperature;
+            view.FindViewById<TextView>(Resource.Id.textView3).Text = Items[position].Temperature1;
+            view.FindViewById<TextView>(Resource.Id.textView4).Text = Items[position].Temperature2;
+            view.FindViewById<TextView>(Resource.Id.textView5).Text = Items[position].Temperature3;
+            view.FindViewById<TextView>(Resource.Id.textView6).Text = Items[position].Temperature4;
 
 
             return view;

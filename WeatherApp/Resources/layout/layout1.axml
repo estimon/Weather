@@ -12,9 +12,10 @@
 		android:layout_height="49.5dp"
 		android:id="@+id/linearLayout1" >
 		<android.support.design.widget.TextInputEditText
-			android:layout_width="247.5dp"
+			android:layout_width="289.5dp"
 			android:layout_height="match_parent"
-			android:id="@+id/textInputEditText1" />
+			android:id="@+id/textInputEditText1"
+			android:layout_marginRight="2.0dp" />
 		<Button
 			android:text="Button"
 			android:layout_width="wrap_content"

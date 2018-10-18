@@ -16,11 +16,21 @@ namespace WeatherApp.Core
 
             var forecastweather = new forecastweather();
 
-            forecastweather.Temperature = (string)results["list"][0]["main"]["temp"]+ " C " + "Description: " + (string)results["list"][0]["weather"][0]["description"];
-            forecastweather.Temperature1 = (string)results["list"][1]["main"]["temp"] + " C " + "Description: " + (string)results["list"][1]["weather"][0]["description"];
-            forecastweather.Temperature2 = (string)results["list"][2]["main"]["temp"] + " C " + "Description: " + (string)results["list"][2]["weather"][0]["description"];
-            forecastweather.Temperature3 = (string)results["list"][3]["main"]["temp"] + " C " + "Description: " + (string)results["list"][3]["weather"][0]["description"];
-            forecastweather.Temperature4 = (string)results["list"][4]["main"]["temp"] + " C " + "Description: " + (string)results["list"][4]["weather"][0]["description"];
+            forecastweather.Temperature = (string)results["list"][1]["main"]["temp"]+ " C "+ "| " + "Description: " + 
+                (string)results["list"][1]["weather"][0]["description"] + " | " +
+                (string)results["list"][1]["dt_txt"];
+            forecastweather.Temperature1 = (string)results["list"][9]["main"]["temp"] + " C " + "| " + "Description: " + 
+                (string)results["list"][9]["weather"][0]["description"] + " | " +
+                (string)results["list"][9]["dt_txt"];
+            forecastweather.Temperature2 = (string)results["list"][17]["main"]["temp"] + " C " + "| " + "Description: " + 
+                (string)results["list"][17]["weather"][0]["description"] + " | " +
+                (string)results["list"][17]["dt_txt"]; 
+            forecastweather.Temperature3 = (string)results["list"][25]["main"]["temp"] + " C " + "| " + "Description: " + 
+                (string)results["list"][25]["weather"][0]["description"] + " | " +
+                (string)results["list"][25]["dt_txt"];
+            forecastweather.Temperature4 = (string)results["list"][33]["main"]["temp"] + " C " + "| " + "Description: " +
+                (string)results["list"][33]["weather"][0]["description"] + " | " +
+                (string)results["list"][33]["dt_txt"];
 
 
             var asi = new forecastweather[1];

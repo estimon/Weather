@@ -32,10 +32,18 @@ namespace WeatherApp
 
         private async void Button_Click(object sender, System.EventArgs e)
         {
-            var edit = FindViewById<EditText>(Resource.Id.textInputEditText1);
-            var list = FindViewById<ListView>(Resource.Id.listView1);
-            forecastweather[] forecasts = await Core.coreForecast.GetForecastweather(edit.Text);
-            list.Adapter = new Adapter(this, forecasts);
+            try
+            {
+                var edit = FindViewById<EditText>(Resource.Id.textInputEditText1);
+                var list = FindViewById<ListView>(Resource.Id.listView1);
+                forecastweather[] forecasts = await Core.coreForecast.GetForecastweather(edit.Text);
+                list.Adapter = new Adapter(this, forecasts);
+            }
+
+            catch (Exception)
+            {
+                Toast.MakeText(Application, ("City not found"), ToastLength.Long).Show();
+            }
 
         }
 

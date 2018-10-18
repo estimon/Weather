@@ -15,31 +15,36 @@
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:id="@+id/textView2" />
+			android:id="@+id/textView2"
+			android:textColor="#ffff0000" />
 		<TextView
 			android:text="Large Text"
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:id="@+id/textView3" />
+			android:id="@+id/textView3"
+			android:textColor="#ff00ff1e" />
 		<TextView
 			android:text="Large Text"
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:id="@+id/textView4" />
+			android:id="@+id/textView4"
+			android:textColor="#fff000ff" />
 		<TextView
 			android:text="Large Text"
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:id="@+id/textView5" />
+			android:id="@+id/textView5"
+			android:textColor="#ff0045ff" />
 		<TextView
 			android:text="Large Text"
 			android:textAppearance="?android:attr/textAppearanceLarge"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:id="@+id/textView6" />
+			android:id="@+id/textView6"
+			android:textColor="#ffffb400" />
 	</LinearLayout>
 
 </LinearLayout>
