@@ -1370,8 +1370,8 @@ namespace WeatherApp
 			// aapt resource value: 0x7F06003A
 			public const int highlighted_text_material_light = 2131099706;
 			
-			// aapt resource value: 0x7F050005
-			public const int ic_launcher_background = 2131034117;
+			// aapt resource value: 0x7F050006
+			public const int ic_launcher_background = 2131034118;
 			
 			// aapt resource value: 0x7F06003B
 			public const int material_blue_grey_800 = 2131099707;
@@ -1459,6 +1459,9 @@ namespace WeatherApp
 			
 			// aapt resource value: 0x7F060057
 			public const int secondary_text_disabled_material_light = 2131099735;
+			
+			// aapt resource value: 0x7F050005
+			public const int splashBackground = 2131034117;
 			
 			// aapt resource value: 0x7F060058
 			public const int switch_thumb_disabled_material_dark = 2131099736;
@@ -2236,6 +2239,9 @@ namespace WeatherApp
 			// aapt resource value: 0x7F010003
 			public const int brokencloudsn = 2130771971;
 			
+			// aapt resource value: 0x7F010004
+			public const int cloudy = 2130771972;
+			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
 			
@@ -2254,17 +2260,17 @@ namespace WeatherApp
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010004
-			public const int fewclouds = 2130771972;
-			
 			// aapt resource value: 0x7F010005
-			public const int fewcloudsn = 2130771973;
+			public const int fewclouds = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int mist = 2130771974;
+			public const int fewcloudsn = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int mistn = 2130771975;
+			public const int mist = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int mistn = 2130771976;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -2305,41 +2311,44 @@ namespace WeatherApp
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010008
-			public const int rain = 2130771976;
-			
 			// aapt resource value: 0x7F010009
-			public const int rainn = 2130771977;
+			public const int rain = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int scatteredclouds = 2130771984;
+			public const int rainn = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public const int scatteredcloudsn = 2130771985;
+			public const int scatteredclouds = 2130771985;
 			
 			// aapt resource value: 0x7F010012
-			public const int showerrain = 2130771986;
+			public const int scatteredcloudsn = 2130771986;
 			
 			// aapt resource value: 0x7F010013
-			public const int showerrainn = 2130771987;
+			public const int showerrain = 2130771987;
 			
 			// aapt resource value: 0x7F010014
-			public const int snow = 2130771988;
+			public const int showerrainn = 2130771988;
 			
 			// aapt resource value: 0x7F010015
-			public const int snown = 2130771989;
+			public const int snow = 2130771989;
 			
 			// aapt resource value: 0x7F010016
-			public const int sun = 2130771990;
+			public const int snown = 2130771990;
 			
 			// aapt resource value: 0x7F010017
-			public const int sun1n = 2130771991;
+			public const int splash_screen = 2130771991;
 			
 			// aapt resource value: 0x7F010018
-			public const int thunderstorm = 2130771992;
+			public const int sun = 2130771992;
 			
 			// aapt resource value: 0x7F010019
-			public const int thunderstromn = 2130771993;
+			public const int sun1n = 2130771993;
+			
+			// aapt resource value: 0x7F010020
+			public const int thunderstorm = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int thunderstromn = 2130772001;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -3285,6 +3294,9 @@ namespace WeatherApp
 			
 			// aapt resource value: 0x7F070002
 			public const int AppTheme = 2131165186;
+			
+			// aapt resource value: 0x7F070003
+			public const int AppTheme_Splash = 2131165187;
 			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
