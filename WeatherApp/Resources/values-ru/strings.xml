@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Погода приложение</string>
+  <string name="action_settings">Settings</string>
+  <string name="search">Поиск</string>
+  <string name="Temperature">температура</string>
+  <string name="Pressure">давление</string>
+  <string name="Wind">ветер</string>
+  <string name="forecast">Прогноз</string>
+</resources>

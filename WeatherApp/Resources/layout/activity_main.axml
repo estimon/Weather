@@ -27,7 +27,7 @@
                 android:id="@+id/citysearch"
                 android:layout_marginRight="0.0dp" />
             <Button
-                android:text="Search"
+                android:text="@string/search"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/button1" />
@@ -40,7 +40,7 @@
             android:layout_height="67.5dp"
             android:id="@+id/linearLayout3">
             <TextView
-                android:text="Temperature"
+                android:text="@string/Temperature"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -55,7 +55,7 @@
             android:layout_height="218.5dp"
             android:id="@+id/linearLayout4">
             <TextView
-                android:text="Pressure"
+                android:text="@string/Pressure"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -67,7 +67,7 @@
                 android:layout_height="125.0dp"
                 android:id="@+id/imageView1" />
             <TextView
-                android:text="Wind"
+                android:text="@string/Wind"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -82,7 +82,7 @@
             android:layout_height="match_parent"
             android:id="@+id/linearLayout5" >
 			<Button
-				android:text="Forecast"
+				android:text="@string/forecast"
 				android:layout_width="184.5dp"
 				android:layout_height="wrap_content"
 				android:id="@+id/button3"

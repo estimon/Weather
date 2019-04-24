@@ -17,7 +17,7 @@
 			android:id="@+id/textInputEditText1"
 			android:layout_marginRight="2.0dp" />
 		<Button
-			android:text="Button"
+			android:text="@string/search"
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
 			android:id="@+id/button1" />

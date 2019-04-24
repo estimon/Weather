@@ -58,3 +58,4 @@ C:\Users\opilane\Desktop\New folder\Weather\WeatherApp.Core\obj\Debug\netstandar
 C:\Users\opilane\Desktop\New folder\Weather\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.AssemblyInfo.cs
 C:\Users\opilane\Desktop\New folder\Weather\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.dll
 C:\Users\opilane\Desktop\New folder\Weather\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.pdb
+C:\Users\Martin Ploompuu\Documents\GitHub\Weather\WeatherApp.Core\obj\Debug\netstandard1.2\WeatherApp.Core.csprojAssemblyReference.cache

@@ -3249,6 +3249,15 @@ namespace WeatherApp
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f09002b
+			public const int Pressure = 2131296299;
+			
+			// aapt resource value: 0x7f09002a
+			public const int Temperature = 2131296298;
+			
+			// aapt resource value: 0x7f09002c
+			public const int Wind = 2131296300;
+			
 			// aapt resource value: 0x7f090000
 			public const int abc_action_bar_home_description = 2131296256;
 			
@@ -3351,6 +3360,9 @@ namespace WeatherApp
 			// aapt resource value: 0x7f090020
 			public const int character_counter_pattern = 2131296288;
 			
+			// aapt resource value: 0x7f09002d
+			public const int forecast = 2131296301;
+			
 			// aapt resource value: 0x7f090021
 			public const int password_toggle_content_description = 2131296289;
 			
@@ -3365,6 +3377,9 @@ namespace WeatherApp
 			
 			// aapt resource value: 0x7f090025
 			public const int path_password_strike_through = 2131296293;
+			
+			// aapt resource value: 0x7f090029
+			public const int search = 2131296297;
 			
 			// aapt resource value: 0x7f090011
 			public const int search_menu_title = 2131296273;
